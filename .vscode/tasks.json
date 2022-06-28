@@ -1,0 +1,25 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build ISO",
+            "type": "shell",
+            "command": "./scripts/build.cmd",
+            "problemMatcher": []
+        },
+        {
+            "label": "Purge Old Files",
+            "type": "shell",
+            "command": "./scripts/purge.cmd",
+            "problemMatcher": []
+        },
+        {
+            "label": "Start QEMU",
+            "type": "shell",
+            "command": "./scripts/start.cmd",
+            "problemMatcher": []
+        }
+    ]
+}

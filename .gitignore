@@ -1,0 +1,6 @@
+*.o
+*.iso
+*.elf
+
+# https://raw.githubusercontent.com/whitequark/story-os/master/grub/stage2_eltorito for you nerds
+stage2_eltorito

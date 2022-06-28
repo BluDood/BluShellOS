@@ -1,0 +1,3 @@
+@echo off
+echo Starting QEMU...
+qemu-system-x86_64 -cdrom blushell.iso
